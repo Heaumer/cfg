@@ -1,0 +1,4 @@
+Quick and dirty.
+Goal is not to lose few hours every 3 months or so.
+
+cd; git clone ...; cd cfg; ./install.sh
