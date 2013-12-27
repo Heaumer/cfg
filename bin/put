@@ -1,0 +1,2 @@
+#!/bin/sh
+echo -n put | 9p write acme/$winid/ctl

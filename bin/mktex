@@ -1,8 +1,8 @@
 #!/bin/sh
 put
 for ext in log aux toc pdf; do
-	rm `basename $% .tex`.$ext
+	rm `basename $1 .tex`.$ext
 done
-pdflatex $% || exit 1
-pdflatex $%
-pdflatex $%
+pdflatex $1 || exit 1
+pdflatex $1
+pdflatex $1
