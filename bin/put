@@ -1,2 +1,5 @@
-#!/bin/sh
-echo -n put | 9p write acme/$winid/ctl
+#!/home/mb/plan9/bin/rc
+
+. $PLAN9/lib/acme.rc
+
+winctl put
