@@ -56,6 +56,8 @@ cp .* $HOME
 # awesome paste
 curl  https://raw.github.com/acieroid/paste-py/master/paste.sh > bin/paste; chmod +x bin/paste
 
+curl  https://raw.github.com/heaumer/snap/master/snap > bin/snap; chmod +x bin/snap
+
 # plumber extensions for urxvt, $HOME/cfg/urxvt/plumb
 mkdir urxvt; wget http://sqweek.net/urxvt/plumb -O urxvt/plumb
 
